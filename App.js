@@ -1,12 +1,10 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import Navigation from './Navigation.js';
 
-const MyApp = () => {
+const App = () => {
     return (
-        <View>
-            <Text>Hello World!</Text>
-        </View>
+        <Navigation/>
     );
 };
 
-export default MyApp;
+export default App;
